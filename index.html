@@ -5,36 +5,43 @@
     <meta charset="UTF-8">
     <title>Advanced CSS - Assignment 1</title>
     <style>
-[href*="google"] {
-    color:green;
-}
-[href*="link"] {
-    color:red;
-}
-#second-div p:nth-child(2n+1){
-    color:blue   
-}
-#second-div p:nth-child(2n){
-    color:red   
-}
-#first-div p:nth-of-type( 1)::after{
-    content: "-NEW";
-    color:yellow
-}
-#first-div p:nth-of-type(2)::after{
-    content: "-NEW";
-    color:yellow
-}
-#second-div p:nth-of-type(1)::after{
-    content: ""; 
-}
-#second-div p:nth-of-type( 2)::after{
-    content: "";
-   
-p:nth-child(8):hover{
-    font-style: italic;
-}
-{}
+        [href*="google"] {
+            color: green;
+        }
+
+        [href*="link"] {
+            color: red;
+        }
+
+        #second-div p:nth-child(2n+1) {
+            color: blue
+        }
+
+        #second-div p:nth-child(2n) {
+            color: red
+        }
+
+        #first-div p:nth-of-type(1)::after {
+            content: "-NEW";
+            color: yellow
+        }
+
+        #first-div p:nth-of-type(2)::after {
+            content: "-NEW";
+            color: yellow
+        }
+
+        #second-div p:nth-of-type(1)::after {
+            content: "";
+        }
+
+        #second-div p:nth-of-type(2)::after {
+            content: "";
+        }
+
+        p:nth-child(8):hover {
+            font-style: italic;
+        }
     </style>
 </head>
 
